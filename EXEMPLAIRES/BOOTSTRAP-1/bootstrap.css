@@ -1,0 +1,193 @@
+/*-------------------------------------------------------------------------------------------*/
+
+#packlib
+{
+    border: 3px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1
+{
+    font-size: 20px;
+    color: blue;
+}
+h2{
+    font-size: 15px;
+    color: #511;
+}
+#pack
+{
+    text-align: center;
+    border-style: outset ;
+    color: red;
+    margin: 5px auto;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+#pub
+{
+    margin: 5px auto;
+    border-style: outset;
+    color: red;
+    font-family: 'Times New Roman', Times, sans-serif;
+    padding-right: 10px;
+}
+#pub1
+{
+    text-align: center;
+    margin: 5px auto;
+    border-style: outset;
+    color: #111;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+#da1:hover
+{
+    background-color: blue;
+}
+.row
+{
+    margin: 10px auto;
+    padding-right: 20px;
+}
+#tro
+{
+    border: #111 2px solid;
+}
+#bockquot
+{
+    width: 500px;
+    right: 180px;
+    text-align: end;
+    float: right;
+    margin-right: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    border: red 2px solid;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+#boutons
+{
+    width: 300px;
+    margin-left: 250px;
+    border:3px solid;
+    border-radius: 15px;
+    background-color: #234;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+#form
+{
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: rgb(34, 77, 85);
+    box-shadow: 8px 8px 8px rgba(2, 2, 3,0.85);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+#conta0
+{
+    margin: 20px auto;
+    background-color: #241;
+    border: 3px solid #261425;
+    border-radius: 20px;
+}
+#lab1
+{
+    font-size: 15px;
+    color: aliceblue;
+    text-transform: lowercase;
+    text-align: start;
+}
+#lab2
+{
+    font-size: 15px;
+    color: aliceblue;
+    text-transform: capitalize;
+    text-align:start;
+}
+.clean
+{
+    clear: both;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+#conta
+{
+    margin: 20px auto;
+    background-color: #241;
+    border: 3px solid #261425;
+    border-radius: 20px;
+}
+#tri
+{
+    background-color: red;
+    border-radius: 0px 0px 15px 15px;
+}
+#trono
+{
+    background-color: #111;
+    border-radius: 15px 15px 0px 0px;
+}
+#tre
+{
+    background-color: green;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+#coment
+{
+    margin: 20px auto;
+    background-color: #241;
+    padding: 15px;
+}
+#coment label
+{
+    color: aqua;
+    font-size: 15px;
+    font-family: 'Italic',sans-serif;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+#NavT
+{
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #236;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+#about
+{
+    padding-top: 30px;
+    background-color: #d82c2e;
+}
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+.thumbnail
+{
+    background-color: #d82c2e;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px outset #fff;
+    border-radius: 4px;
+}
+.thumbnail1
+{
+    background-color: #d82c2e;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px inset #fff;
+    border-radius: 4px;
+}
+
+#about .heading h1
+{
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+#about .heading h3
+{
+    color: #000;
+    position: relative;
+}
+#bouton1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+#bouton1:hover
+{
+    background-color: #fff;
+    color: #d82c2e;
+    text-decoration: none;
+}

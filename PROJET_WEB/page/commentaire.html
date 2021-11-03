@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vente téléphone en ligne</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+ <style>
+body{
+	background:olive;
+}
+h1 .box-logo a{
+	text-decoration:none;
+}
+h1 .box-title{
+	color:#AEAEAE;
+	background:#f8f8f8;
+	font-weight:300px;
+	padding:15px 25px;
+	line-height:30px;
+	font-size:25px;
+	text-align:center;
+	margin:-27px -26px 26px;
+}
+form{
+	border:1px solid #C4C4C4;
+	padding:30px 25px 10px 25px;
+	background:white;
+	margin:30px auto;
+	width:900px;
+}
+input[ type=name],input[ type=email]{
+	width:100%;
+	margin:8px 0px;
+	padding:12px 20px;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+}
+.box-button{
+	border-radius:5px;
+	background:#d2483c;
+	text-align:center;
+	cursor:pointer;
+	font-size:19px;
+	width:100px;
+	height:35px;
+	padding:0;
+	color:#fff;
+	border:0;
+	outline:0;
+}
+label{
+	display:inline-block;
+	width:100%;
+	
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+	<form action="" method="post">
+		<h1 class="box-logo box-title">
+		<a href="../index.html">Phonemobile.com</a></h1>
+		<div class="form-group">
+			<label for:"name">Nom Complet :</label>
+			<input type="name" class="form-control" id="name">
+		</div>
+		<div class="form-group">
+			<label for:"email">Adresse de messagerie :</label>
+			<input type="email" class="form-control" id="email">
+		</div>
+		<div class="form-group">
+			<label for:"comment">Commentaire :</label>
+		   <textarea class="form-control" rows="10" cols="50" id="comment"></textarea>
+		</div><br/>
+		<div class="checkbox">
+		<label><input type="checkbox" name="choix1" value="1" checked>Prévenez-moi de tous les nouveaux commentaires par e-mail.</label>
+		<label><input type="checkbox" name="choix2" value="2">Prévenez-moi de tous les nouveaux articles par e-mail.</label>
+        </div><br/>
+        <input type="send" name="send" value="Envoyer" class="box-button"/><br/><br/>
+         <footer class="container">
+        <p class="float-right" style="color:black;"><a href="../index.html">Rétour à l'accueil</a></p>
+        <p> Copyright 2020 &copy; PhoneMobile, Inc. &middot; <a href="#">Politique de confidentialité </a> &middot; <a href="#">Mentions légales </a></p>
+      </footer>
+	</form>
+</body>
+</html>

@@ -1,0 +1,310 @@
+
+
+#corps
+{
+    position: absolute;
+    margin-top: 70px;
+    padding: 5px;
+    margin-bottom: 4px;
+    background-color: rgb(85, 52, 52);
+    border-radius: 10px;
+}
+#livreP1
+{
+    height: 12px;
+    background-color: rgb(85, 52, 52);
+}
+
+/*-------------------------------------------------SECTION1-------------------------------------------------*/
+#section1
+{
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: -90px;
+    background-color: #224;
+    border-radius: 5px;
+    display: block;
+}
+#nav ul li
+{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+#nav ul li:hover
+{
+    color: blue;
+    font-size: 14px;
+}
+#paragraphe1
+{
+    font-size: 30px;
+    font-family: 'Crete Round', serif;
+    font-size-adjust: unset;
+    color: rgb(248, 243, 243);
+    text-shadow: 4px 4px 4px rgba(211, 204, 204, 0.85);
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+#bookliste
+{
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #2c7;
+}
+#section2
+{
+    margin: 0px auto;
+    padding: 10px;
+    border: 2px solid #2c7;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #224;
+}
+#line
+{
+    padding: 10px;
+}
+#livr
+{
+    background-color: #999;
+    border-radius: 12px 0px 0px 12px;
+}
+#livr p
+{
+    font: bolder;
+    text-shadow: #222;
+    color: #824;
+}
+#livr p a
+{
+    color: blue;
+}
+#livr p a:hover
+{
+    color: orangered;
+}
+
+#livres
+{
+    background-color: #666;
+    border-radius: 12px 0px 0px 12px;
+}
+#livres p
+{
+    font: bolder;
+    text-shadow: #222;
+    color: #824;
+}
+#livres p a
+{
+    color: blue;
+}
+#livres p a:hover
+{
+    color: orangered;
+}
+.legende
+{
+    margin: 6px auto;
+    background-color: rgb(114, 129, 123);
+    text-align: center;
+    border: 2px solid #222;
+    border-radius: 0px 20px 0px 20px;
+}
+.legende:hover
+{
+    background-color: rgb(203, 227, 240);
+}
+
+
+
+#Left
+{
+    background-color: #477;
+    border-radius: 0px 12px 12px 0px;
+}
+#p1
+{
+    text-align: center;
+    font-size: 20px;
+    color: #824;
+}
+.livres-txt
+{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+}
+.livres-txt:hover
+{
+    font-size: 18px;
+    color: #824;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+#commentaire
+{
+    margin: 20px 20px 0px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #2c7;
+}
+#section3
+{
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #288;
+    border: 2px solid #2c7;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 2px rgba(e, f, f, 0.85);
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+#propos
+{
+    margin: 20px 20px 0px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #2c7;
+}
+#section4
+{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border: 2px solid #2c7;
+    border-radius: 0px 0px 15px 15px;
+}
+#section4 article
+{
+    padding: 0px;
+    border-radius: 15px;
+}
+#styl1
+{
+    background: #bfbfbf url('article1.jpg') repeat-x;
+}
+#styl2
+{
+    background: #bfbfbf url('message.jpg') repeat-x;
+}
+#styl3
+{
+    background: #bfbfbf url('trinito.jpg') repeat-x;
+}
+#art1
+{
+    background: rgba(255,255,255,0.65);
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+#art2
+{
+    background: rgba(255,255,255,0.65);
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+#art3
+{
+    background: rgba(255,255,255,0.30);
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+#art2 p
+{
+    color: #211;
+}
+#art3 p
+{
+    color: #211;
+}
+article h6
+{
+    border-bottom: 1px solid red;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: red;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+#section5
+{
+    height: 56px;
+    text-align: center;
+    padding-top: 38px;
+    color: #fff288;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

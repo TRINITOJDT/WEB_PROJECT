@@ -1,0 +1,19 @@
+.nita
+{
+	background-image: url('jean.jpg');
+	background-attachment: fixed;
+	margin: 20px;
+	text-align: center;
+	font-size: 30px;
+	color: teal;
+}
+.nita h5
+{
+	font-size: 25px;
+	font-style: italic;
+}
+.nita strong
+{
+	font-style: italic;
+	color: white;
+}

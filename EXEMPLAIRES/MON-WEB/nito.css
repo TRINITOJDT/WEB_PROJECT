@@ -1,0 +1,18 @@
+.nito
+{
+	background-image: url('Bnito.jpg');
+	background-attachment: fixed;
+	margin: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+.nito h5
+{
+	font-size: 25px;
+	font-style: italic;
+}
+.nito strong
+{
+	font-style: italic;
+	color: white;
+}

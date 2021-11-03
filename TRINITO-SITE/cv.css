@@ -1,0 +1,509 @@
+
+/*-------------GENERALE-----------------------------------------------------------*/
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: bold;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+section
+{
+    padding: 45px 0 80px 0;
+}
+section.heading
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+section.heading h2
+{
+    text-transform: uppercase;
+}
+.red-divider
+{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #d82c2e;
+}
+.white-divider
+{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*-------------ABOUT------------------------------------------------------------*/
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(18, 3, 53);
+}
+.profile-picture
+{
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+.thumbnail0
+{
+    background-color: rgba(79, 73, 73, 0.049);
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px outset #fff;
+    border-radius: 4px;
+}
+.thumbnail1
+{
+    background-color: rgba(79, 73, 73, 0.049);
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px inset #fff;
+    border-radius: 4px;
+}
+
+#about .heading h1
+{
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+#about .heading h3
+{
+    color: #000;
+    position: relative;
+}
+#bouton1
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    width: 170px;
+    padding: 20px 3px 20px 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+#bouton1:hover
+{
+    background-color: #fff;
+    color: #d82c2e;
+    text-decoration: none;
+}
+
+/*------------------SKILLS-------------------------------------------------*/
+#skills
+{
+    background-color: rgb(50, 27, 104);
+
+}
+#skills .heading h2
+{
+    text-align: center;
+    color: #d82c2e;
+    text-transform: uppercase;
+}
+#skills .progress
+{
+    height: 100%;
+    margin: 30px 20px;
+    backface-visibility: #ddd;
+}
+#skills .progress-bar
+{
+    background-color: rgb(18, 3, 53);
+}
+#skills .progress-bar h5
+{
+    text-shadow: 3px 3px 3px rgba(1, 1, 1, 0.75);
+}
+
+/*--------------EXPERIENCE------------------------------------------------*/
+#experience
+{
+    background-color: rgb(97, 158, 223);
+}
+#experience .heading h2
+{
+    text-align: center;
+    color: #fff;
+}
+.timeline
+{
+    padding: 30px 10px;
+    position: relative;
+}
+.timeline:before
+{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 5px;
+    background-color: #333;
+    left: 50%;
+    margin-left: -2.5px;
+}
+.timeline ul li
+{
+    text-decoration: none;
+}
+.timeline >li
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline > li:after
+{
+    clear: both;
+}
+.timeline > li:before , .timeline > li:after
+{
+    content: " ";
+    display: table;
+}
+.timeline li .timeline-badge
+{
+    color: #d82c2e;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+.timeline-panel-container
+{
+    width: 50%;
+    float: left;
+}
+.timeline-panel-container-inverted
+{
+    width: 50%;
+    float: right;
+}
+.timeline-panel-container-inverted .timeline-panel
+{
+    float: left;
+    margin-left: 40px;
+}
+.timeline-panel
+{
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    font-family: 'Crete rond', serif;
+    position: relative;
+    background-color: rgb(92, 126, 140);
+}
+.timel
+{
+    background-color: rgb(168, 152, 193);
+    transition: ease-in-out 0.3s;
+}
+.timeline-panel:after
+{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    font-family: 'Crete rond', serif;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline-panel-container-inverted .timeline-panel:after
+{
+    border-left-width: 0px;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+/*--------------------EDEUCATION-----------------------*/
+#education
+{
+    background-color: rgb(175, 126, 126);
+}
+#education h2
+{
+    color: #9b0909;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.education-block
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.educ
+{
+    box-shadow: 4px 4px 4px rgba(79, 73, 73, 0.75);
+}
+.educ1
+{
+    box-shadow: 4px 4px 4px rgba(79, 73, 73, 0.75);
+}
+.education-block h3
+{
+    color: #d82c2e;
+    font: bolder;
+    font-style: oblique;
+    font-family: 'Crete rond', serif;
+}
+.education-block span
+{
+    font-size: 30px;
+}
+.education-block p , h4
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+/*-----------------PORTFOLIO-------------------------------------------------------------*/
+#portfolio
+{
+    background-color: rgb(84, 163, 242);
+}
+#portfolio .heading h2
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#portfolio .thumbnail img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#portfolio .thumbnail img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+
+
+/*-------------------FOOTER------------------------------------------------------------*/
+footer
+{
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+footer .glyphicon
+{
+    color: #d82c2e;
+    font-size: 25px;
+    margin: 20px;
+    height: 30px;
+}
+footer .glyphicon:hover
+{
+    font-size: 30px;
+}
+footer h5
+{
+    color: #fff;
+}
+
+
+/*-----------------------NAVBAR----------------------------------------------------------*/
+#navb
+{
+    background: #102;
+}
+#tr
+{
+    float: left;
+    width: 15%;
+    height: 100%;
+    text-align: left;
+    font-family: 'crete rond', serif;
+    font-size: 35px;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-style: italic;
+    color: #d4d4d4;
+    text-shadow: 5px 5px 5px rgba(182, 129, 129, 0.75);
+}
+#cont
+{
+    margin-left: 15%;
+}
+.navbar
+{
+    background-color: red;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+
+
+
+/*------------------------------CONTACT-----------------------------------------------------------------*/
+#contact-form
+{
+    background-color: rgb(18, 3, 53);
+    margin: 0px auto;
+    padding: 5%;
+}
+.etoil
+{
+    color: #129;
+    font-size: 17px;
+    font-weight: bold;
+}
+label
+{
+    color: rgb(201, 183, 243);
+}
+#contact-form h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: #9b0909;
+}
+#contact
+{
+    padding: 3%;
+    background-color: rgb(50, 27, 104);
+    margin: 0px auto;
+    border: 3px solid #114;
+    border-radius: 10px;
+}
+
+.inp
+{
+    height: 40px;
+    background: rgb(211, 193, 252);
+}
+.com
+{
+    background: rgb(211, 193, 252);
+}
+.bouton1
+{
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(18, 3, 53);
+    background-color: rgb(175, 247, 171);
+    text-align: center;
+    border: 2px solid rgb(39, 21, 82);
+    border-radius: 8px;
+}
+.bouton1:hover
+{
+    background-color: rgb(24, 233, 13);
+    transition: all 0.4s ease-in 0s;
+}
+.comment
+{
+    height: 20px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f11;
+}
+.remerciement
+{
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(9, 245, 88);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
